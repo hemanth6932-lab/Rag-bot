@@ -1,0 +1,70 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# SQLite DB
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage / testing
+.coverage
+htmlcov/
+
+# ML / AI models (large files)
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Data files (optional - if large)
+data/
+datasets/
+
+# FastAPI / server
+*.pid
+
+# Cache folders
+.cache/
+
+# Docker
+*.tar
+
+# Node (if frontend added later)
+node_modules/
