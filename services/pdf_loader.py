@@ -68,4 +68,6 @@ def extract_text_tables(file_path: str) -> List[Dict]:
                 "created_at": datetime.now().isoformat()
             })
 
+    print(file_id, file_name, len(structured_chunks));
+
     return structured_chunks
